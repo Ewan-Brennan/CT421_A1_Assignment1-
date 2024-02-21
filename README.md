@@ -19,4 +19,6 @@ This GA is an extension of the One-max algorithm. This GA is used to illustrate 
 
 It is observed that the GA never achieves the global optimum of 0. Even if a value of 0 is present in the initial random population, it will be lost in the next generation due to mutation and crossover.
 
-This is also an extension of the One Max Problem. This is used to show how an GA might have a shortfall in terms of determining the fittest bit-string. I haev seen that the GA 
+This is also an extension of the One Max Problem. This is used to show how an GA might have a shortfall in terms of determining the fittest bit-string. Alongside the target of the 30 bit string, we also set a target of all 0's, this is then given a double score to the fitness of a bit string with all 1's. The output for my assignment shows that once it reaches the optimum 30 bit string of all 0's, it determines it to be the fittest candidate and returns it with a 60-bit value, which highlights the potential shortfall of the algorithm.
+
+
